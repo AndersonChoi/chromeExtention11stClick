@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "11번가에서 상품 검색하기",
+    "description": "크롬에서 간편하게 11번가로 상품을 검색하세요.",
+  	"minimum_chrome_version": "38",
+    "version": "1.0", 
+    "icons": {
+          "128": "icon.png"
+        },
+	"background": {"page": "background.html"},
+    "permissions": [
+      "contextMenus", 
+      "tabs"]
+}
